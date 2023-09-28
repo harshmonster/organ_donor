@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organ Donor Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Welcome to Our Organ Donor Website</h1>
+        <p>Help save lives by becoming an organ donor.</p>
+    </div>
+
+    <!-- <center> -->
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search...">
+            <button class="search-button">Search</button>
+        </div>
+        <h2>User Registration</h2>
+        <form action="thanks.html" method="post"> 
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="contact">Contact Number:</label>
+            <input type="tel" id="contact" name="contact" required><br><br>
+    
+            <label for="bloodgroup">Blood Group:</label>
+            <input type="text" id="bloodgroup" name="bloodgroup" required><br><br>
+    
+            <label for="donation">Organ Donation Preference:</label><br>
+            <input type="checkbox" id="heart" name="organs[]" value="heart">
+            <label for="heart">Heart</label><br>
+    
+            <input type="checkbox" id="lungs" name="organs[]" value="lungs">
+            <label for="lungs">Lungs</label><br>
+    
+            <input type="checkbox" id="eyes" name="organs[]" value="eyes">
+            <label for="eyes">Eyes</label><br>
+    
+            <input type="checkbox" id="kidney" name="organs[]" value="kidney">
+            <label for="kidney">Kidney</label><br>
+    
+            <!-- Add more organ options as needed -->
+    
+            <br><br>
+            <center>
+                <button class="btn"><a href="submit.html">Submit</a></button>
+
+            </center>
+        </form>
+    
+    
+    <!-- </center> -->
+        <div class="container">
+        <h1>Organ Donation Options</h1>
+        <p>Thank you for considering organ donation. Please select one of the options below:</p>
+        <div class="donor-options">
+            <div class="donor-option">
+                <img src="WhatsApp Image 2023-09-28 at 01.41.43.jpg"\>
+                <h3>Heart</h3>
+                <p>Donate your heart to save lives.</p>
+            </div>
+            <div class="donor-option">
+                <img src="WhatsApp Image 2023-09-28 at 01.33.23.jpg"\>
+                <h3>Liver</h3>
+                <p>Donate your liver to improve lives.</p>
+            </div>
+            <div class="donor-option">
+                <img src="WhatsApp Image 2023-09-28 at 01.40.29.jpg"\> 
+                <h3>Kidney</h3>
+                <p>Donate your kidney to give someone a second chance.</p>
+            </div>
+            <!-- Additional Donation Options -->
+            <div class="donor-option">
+                <img src="WhatsApp Image 2023-09-28 at 01.53.31.jpg"\> 
+                <h3>Lung</h3>
+                <p>Donate your lung and help someone breathe easier.</p>
+            </div>
+            <div class="donor-option">
+                <img src="WhatsApp Image 2023-09-28 at 01.52.18.jpg"\> 
+                <h3>Eye</h3>
+                <p>Donate your eyes to bring light to someone's world.</p>
+            </div>
+            <div class="donor-option">
+                <img src="WhatsApp Image 2023-09-28 at 01.47.51.jpg"\>
+                <h3>Bone</h3>
+                <p>Donate your bone tissue to heal fractures and save lives.</p>
+            </div>
+        </div>
+        
+    </div>
+    <div>
+        <ul class="footer">
+            <li>Products</li>
+            <li>About Us</li>
+            <li>Terms And Condition</li>
+            <li>Testimonials</li>
+        </ul>
+    </div>
+</body>
+</html>
